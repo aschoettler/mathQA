@@ -1,3 +1,12 @@
+---
+html:
+  embed_local_images: true
+  embed_svg: true
+  offline: false
+export_on_save:
+  html: true
+---
+
 ## Dice Roll Game
 
 You roll a 10-sided die repeatedly.
