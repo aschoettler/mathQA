@@ -12,7 +12,7 @@ customjs:
 
 # Envelope Curve
 
-I have a bunch of material on this problem locally but its hard to publish.
+---
 
 ## The Problem
 

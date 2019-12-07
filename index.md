@@ -23,7 +23,7 @@ Here's a [link](diceroll/diceroll.html) to an answer I made.
 
 ### Envelope Curve Problems
 
-Here's a [**link**](envelope/curve.html) to the basic problem.
+Here's a [link](envelope/curve.html) to the basic problem.
 
 
 
