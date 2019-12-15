@@ -66,13 +66,20 @@ Since all the intervals are the same width, the size of the $k^{th}$ interval is
 
 In this problem we want to approximate $f(x) = 1/x$ over $[a,b]=[1,2]$.
 
+The goal is to calculate the terms of the sum
+$$
+    \sum_{k=0}^{n-1} f(x_k + \Delta) \cdot \Delta
+$$
+
+First we'll compute the values at the right endpoints of each interval.
 The right-hand endpoints of each of the $n$ sub-intervals are
 $$
     \{x_k + \Delta | k = 0 \dots n-1 \}
 $$
 So the *values* at those right-endpoints are:
 $$
-    \{f\left(x_k + \Delta\right) | k = 0 \dots n-1 \} = \{\frac{1}{a + k \Delta + \Delta} | k = 0 \dots n-1 \}
+    \{f\left(x_k + \Delta\right) | k = 0 \dots n-1 \}
+    = \left\{\frac{1}{a + k \Delta + \Delta} | k = 0 \dots n-1 \right\}
 $$
 
 The first few values are
@@ -80,31 +87,30 @@ $$
     \frac{1}{1+\Delta}, \frac{1}{1+2\Delta}, \frac{1}{1+3\Delta} \dots
 $$
 
-After multiplying each sampled function value by the sub-interval width $\Delta$,
-the terms of the actual sum
-$$
-    \sum_{k=0}^{n-1} f(x_k + \Delta) \cdot \Delta
-$$
-are:
+**Next** we multiply each value by $\Delta$ to get the terms of the sum.
+In general the first few terms are these:
 $$
     f(a + \Delta) \cdot \Delta, f(x_1 + \Delta) \cdot \Delta, f(x_2 + \Delta) \cdot \Delta
 $$
-which equal:
+
+And using the last result the terms are:
 $$
     \frac{\Delta}{1+\Delta}, \frac{\Delta}{1+2\Delta}, \frac{\Delta}{1+3\Delta} \dots
 $$
+To simplify, divide the top and bottom of each fraction by $\Delta$ to get
+$$
+    \frac{1}{1+\frac{1}{\Delta}},
+    \frac{1}{2+\frac{1}{\Delta}},
+    \frac{1}{3+\frac{1}{\Delta}} \dots
+$$
 
-Dividing the top and bottom of each fraction by $\Delta$ we get
+And finally use $\Delta$ = $1/n$ and we have the following as the first few terms of the sum for $k=0,1,2$:
 $$
-    \frac{1}{1+\frac{1}{\Delta}}, \frac{1}{2+\frac{1}{\Delta}}, \frac{1}{3+\frac{1}{\Delta}} \dots
-$$
-
-Finally use $\Delta$ = $1/n$ and we have the following as the first few terms of the sum for $k=0,1,2$:
-$$
-    \frac{1}{n+1}, \frac{1}{n+2}, \frac{1}{n+3} \dots
+    \frac{1}{n+1},
+    \frac{1}{n+2},
+    \frac{1}{n+3} \dots
 $$
 For the whole sum, the $k^{th}$ term is $1/(n + (k+1))$ so the total sum is
 $$
-    R_n = \sum_{k=0}^{n-1} \frac{1}{n + (k+1)}
+    R_n = \sum_{k=0}^{n-1}\frac{1}{n + (k+1)}.
 $$
-.
