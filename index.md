@@ -27,19 +27,22 @@ When repeated indefinitely a curve emerges, explored here.
 
 ### Half-spaces and Standard Form of Liner Equations
 * Explanation of standard form of a line, and a **lot** of related geometry.
-  [link](halfspace-3-4-24/halfspace.html)
+* [Link](halfspace-3-4-24/halfspace.html)
 
 ### Dot Products and Angles
-* Dot products and relation to cosines: [link](dot-product-vs-cosine/dot-product-vs-cosine.html)
+* Dot products and relation to cosines
+* [Link](dot-product-vs-cosine/dot-product-vs-cosine.html)
 
 ### Arc Length
-* Explanation of arc length formula and intuition: [Arc Length](arclength/arclength.html)
+* Explanation of arc length formula and intuition
+* [Link](arclength/arclength.html)
 
 ## Other problems
-* Diceroll \\
-  This was a question asked on reddit somewhere. \\
-  Here's a [link](diceroll/diceroll.html) to an answer I made.
-* A [Riemann Sum](riemann-rsum/rsum.html) example problem
+* Diceroll
+  * This was a question asked on reddit somewhere.
+  * Here's a [Link](diceroll/diceroll.html) to an answer I made.
+* Riemann Sum Example
+  * [Link](riemann-rsum/rsum.html)
 
 
 
