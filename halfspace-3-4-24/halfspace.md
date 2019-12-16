@@ -10,6 +10,8 @@ customjs:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 ---
 
+[Home](/index.html)
+
 # Half-Spaces
 
 The equation $3x-4y=24$ is the so-called “standard form” equation of a line.
