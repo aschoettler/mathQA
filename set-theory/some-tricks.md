@@ -14,10 +14,10 @@ customjs:
 
 The natural numbers can be defined in terms of sets as:
 ```txt
-0 = {} 
-1 = {0} = {{}}
-2 = {0,1} = {{},{{}}}
-3 = {0,1,2} = {{}, {{}}, {{},{{}}}}
+0 = { } 
+1 = {0} = {{ }}
+2 = {0,1} = {{ },{{ }}}
+3 = {0,1,2} = {{ }, {{ }}, {{ },{{ }}}}
 ```
 
 More formally [they define](https://en.wikipedia.org/wiki/Successor_function) the successor function S(K) (it represents K+1)
