@@ -13,7 +13,7 @@ customjs:
 [Home](/index.html)
 
 The natural numbers can be defined in terms of sets as:
-```
+```txt
 0 = {} 
 1 = {0} = {{}}
 2 = {0,1} = {{},{{}}}
@@ -24,8 +24,7 @@ More formally [they define](https://en.wikipedia.org/wiki/Successor_function) th
 as $S(K) = K \cup {K}$
 If we use this definition we get the pattern above:
 For K = 0, you get 
-$$ S(K) = S(1) = 1 \cup \{1\} = \{\{\}\} 
-\cup \{\{\{\}\}\} = \{\{\}, \{\{\}\}\}$$
+$$ S(K) = S(1) = 1 \cup \{1\} = \{\{\}\} \cup \{\{\{\}\}\} = \{\{\}, \{\{\}\}\}$$
  which is 2 above.
 
 If K has the property that $K = \{0, 1, ...K-1\}$ then 
