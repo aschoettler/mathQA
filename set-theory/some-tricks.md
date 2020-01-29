@@ -37,8 +37,8 @@ so the set for K+1 (which is S(K)) contains all numbers 0 through K.
 
 
 The set of functions from A to B is sometimes denoted as $B^A$.
-- Ordered pairs of real numbers correspond to functions from R to \{0, 1\},
-    so you can think of the space of these functoins as $R^\{0,1\}$ = $R^2$.
+- Ordered pairs of real numbers correspond to functions from R to {0, 1},
+    so you can think of the space of these functoins as $R^{\{0,1\}}$ = $R^2$.
 - This also works if you denot the powerset of A, usually P(A) as 2^A
     its the set of all functions from A to 2.
 - If you define A to be the set $n = \{0,1,...n-1\}$,

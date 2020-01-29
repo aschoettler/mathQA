@@ -47,5 +47,3 @@ When repeated indefinitely a curve emerges, explored here.
   * [link](set-theory/some-tricks.html)
 
 
-
-
