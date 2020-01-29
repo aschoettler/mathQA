@@ -43,6 +43,8 @@ When repeated indefinitely a curve emerges, explored here.
   * Here's a [Link](diceroll/diceroll.html) to an answer I made.
 * Riemann Sum Example
   * [Link](riemann-rsum/rsum.html)
+* A couple notes on Set theory 
+  * [link](set-theory/some-tricks.html)
 
 
 
